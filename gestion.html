@@ -1,0 +1,46 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilo2.css">
+<title>Gestión de Brainrots</title>
+</head>
+<body>
+<div class="container">
+<h1>Gestión de Brainrots</h1>
+<div id="toastContainer"></div>
+<form id="userForm">
+    <input type="hidden" id="userId">
+    <input type="text" id="nombre" placeholder="Nombre completo" required>
+    <input type="email" id="email" placeholder="Correo electrónico" required>
+    <input type="tel" id="telefono" placeholder="Número de teléfono" required>
+    <button type="submit" id="submitBtn">Agregar Brainrot</button>
+    <button type="button" id="cancelarEdicion" style="display:none;">Cancelar Edición</button>
+</form>
+
+<hr>
+
+<h2>Lista de Brainrots</h2>
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="Buscar por nombre, email o teléfono">
+</div>
+<table id="userTable">
+    <thead>
+        <tr>
+            <th>ID</th> 
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Teléfono</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+</div>
+
+<script src="script.js"></script>
+<footer>
+    <button onclick="window.location.href='aboutus.html'">Ir a otra página</button>
+</footer>
+</body>
+</html>
