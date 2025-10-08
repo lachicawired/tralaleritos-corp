@@ -3,7 +3,8 @@
 Bienvenido a **Tralaleritos Corp**, un sistema de gestión de Brainrots que simula un CRUD (Crear, Leer, Actualizar, Eliminar) de usuarios usando **LocalStorage** en el navegador.  
 
 Este proyecto fue desarrollado como práctica de **Front-end y Back-end básico**, usando HTML, CSS y JavaScript puro, sin frameworks externos.  
-![Foto](https://i.imgur.com/ik24wRd.pnghttps://imgur.com/a/7dZczkX)
+![Foto](https://i.imgur.com/ik24wRd.png)
+![Foto](https://i.imgur.com/5HNWS8d.png)
 
 ---
 
